@@ -1,0 +1,164 @@
+.Theater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        padding: 40px 0px;
+
+        .Navbar {
+            display: flex;
+            padding-bottom: 20px;
+
+            .btnClick {
+                padding: 15px 30px;
+                text-align: center;
+                cursor: pointer;
+                background-color: var(--pimary);
+                margin-right: 20px;
+                border: 1px solid black;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 300;
+            }
+
+            .btnClick:hover {
+                color: var(--white);
+                background-color: var(--btnHover)
+            }
+        }
+
+        .TheaterCinema {
+            display: flex;
+
+            .LsCinema {
+                width: 33.33%;
+                padding-right: 20px;
+
+                .lstheater {
+                    width: 100%;
+
+                    thead {
+                        .movieContent {
+                            background: var(--pimary);
+                            color: #fff;
+                            padding: 10px 50px;
+                            font-size: 30px;
+                        }
+                    }
+
+                    tbody {
+                        .Theater {
+                            padding: 30px 0px 30px 0px;
+                        }
+
+                        .Theater:hover {
+                            background-color: var(--hover);
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+
+                .lsmovie {
+                    width: 100%;
+
+                    .boxMovie {
+                        display: flex;
+                    }
+
+                    thead {
+                        .movieContent {
+                            background: var(--pimary);
+                            color: #fff;
+                            padding: 10px 50px;
+                            font-size: 30px;
+                        }
+                    }
+
+                    tbody {
+                        padding: 10px 0px;
+
+                        .boxMovie {
+                            display: flex;
+                            padding: 10px;
+                        }
+
+                        .boxMovie:hover {
+                            background-color: var(--hover);
+                            cursor: pointer;
+                        }
+
+                        .titleMovie {
+                            margin-left: 10px;
+
+                            p {
+                                padding: 15px 0px;
+                            }
+                        }
+                    }
+                }
+
+                .lsrate {
+                    width: 100%;
+
+                    thead {
+                        .movieContent {
+                            background: var(--pimary);
+                            color: #fff;
+                            padding: 10px 50px;
+                            font-size: 30px;
+                        }
+                    }
+
+                    tbody {
+                        .Rate {
+                            padding: 30px 0px 30px 10px;
+
+                            .Rateday {
+                                color: var(--pimary);
+                                padding: 10px 0px;
+                            }
+
+                            .showtimes {
+                                display: flex;
+                                align-items: center;
+                                box-sizing: border-box;
+
+                                .Sub {
+                                    width: 25%;
+                                }
+
+                                .time {
+                                    width: 75%;
+                                    padding-left: 30px;
+                                    box-sizing: border-box;
+                                    margin-bottom: 20px;
+
+                                    .btnTime {
+                                        padding: 10px 20px;
+                                        margin: 5px;
+                                        background-color: white;
+                                        border: 1px solid gray;
+                                        cursor: pointer;
+                                    }
+
+                                    .btnTime:hover {
+                                        color: salmon;
+                                        border: 1px solid salmon;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+
+    }
+
+}

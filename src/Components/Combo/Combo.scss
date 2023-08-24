@@ -1,0 +1,190 @@
+.Combo {
+    display: flex;
+    justify-content: center;
+
+
+    .container {
+        padding: 40px 0px;
+
+
+        .ComboTicket {
+            display: flex;
+
+
+
+            .ChooseTicket {
+                background-color: var(--pimary);
+                padding: 10px;
+                width: 70%;
+
+
+                h3 {
+                    color: white;
+                    padding: 20px 0px;
+                }
+
+                .Ticket {
+                    border-collapse: collapse;
+                    width: 100%;
+
+                    thead {
+
+                        tr {
+                            th {
+                                background-color: var(--brown);
+                                color: white;
+                                text-align: left;
+                                padding: 10px;
+                            }
+
+                        }
+
+                    }
+
+                    tbody {
+
+                        tr:nth-child(even) {
+                            background-color: #f2f2f2;
+                        }
+
+                        background-color: var(--white);
+
+                        td {
+
+                            text-align: left;
+                            padding: 10px;
+
+                            .cbTicket {
+                                display: flex;
+
+                                .cbTicketleft {
+                                    margin-left: 20px;
+
+                                    p {
+                                        padding: 10px 0px;
+                                    }
+                                }
+                            }
+
+                            .plus-minus-input {
+                                display: flex;
+                                align-items: center;
+
+                                .input-group-field {
+                                    text-align: center;
+                                    margin-bottom: 10px;
+                                    margin-left: 10px;
+                                    margin-right: 10px;
+                                    padding: 10px;
+                                    width: 70px;
+                                }
+
+                                .input-group-button {
+                                    .circle {
+                                        border: unset;
+                                        background-color: unset;
+                                    }
+
+                                    .fa {
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        td:nth-child(1) {
+                            width: 40%;
+                        }
+
+                        td:nth-child(2) {
+                            width: 20%;
+                        }
+
+                        td:nth-child(3) {
+                            width: 20%;
+                        }
+
+                        td:nth-child(4) {
+                            width: 20%;
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .Booking {
+                width: 30%;
+                background-color: #F1F1F1;
+                margin-left: 20px;
+                padding: 15px;
+                height: 40%;
+
+                .lsBooking {
+
+                    .img {
+                        text-align: center;
+
+                        img {
+                            width: 80%;
+                            height: auto;
+                            box-sizing: border-box;
+                            padding-bottom: 10px;
+                        }
+                    }
+
+                    .contentMovie {
+                        p {
+                            padding: 10px 0px;
+                            border-bottom: 1px solid gray;
+
+                            span {
+                                font-weight: bolder;
+                            }
+                        }
+
+                        h1 {
+                            font-size: 20px;
+
+                            span {
+                                color: var(--pimary)
+                            }
+                        }
+
+                        .subName {
+                            border: unset;
+                        }
+
+                        h1 {
+                            padding: 10px 0px;
+                        }
+
+                        .btnNext {
+                            text-align: center;
+
+                            button {
+                                background-color: var(--pimary);
+                                padding: 10px 30px;
+                                font-size: 16px;
+                                border: unset;
+                                color: var(--white);
+                                font-weight: bold;
+                                margin-top: 20px;
+                                cursor: pointer;
+                            }
+
+                            button:hover {
+                                background-color: var(--btnHover)
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}

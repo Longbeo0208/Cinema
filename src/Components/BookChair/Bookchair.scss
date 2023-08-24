@@ -1,0 +1,171 @@
+.Seat {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        padding: 40px 0px;
+
+        .SeatContent {
+            display: flex;
+
+            .seatLeft {
+                padding: 10px;
+                width: 70%;
+                background-color: #E26435;
+
+
+                h1 {
+                    color: #fff;
+                    padding-bottom: 20px;
+                }
+
+
+                >div {
+
+                    background-color: #fff;
+                    padding: 10px;
+                }
+
+                .LsSEAT {
+                    display: flex;
+                    gap: 5px;
+                    margin-bottom: 15px;
+                }
+
+                .btnSelect {
+                    cursor: pointer;
+                    border: unset;
+                    width: 100px;
+                    text-align: center;
+                    color: #002517;
+                }
+
+            }
+
+            .title {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .TV {
+                display: flex;
+                justify-content: center;
+
+                span {
+                    margin: 10px;
+                }
+            }
+
+            .showTV {
+                display: flex;
+
+
+                >div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 33.33%;
+                    padding: 20px;
+
+                    .selectSeat {
+                        width: 15px;
+                        height: 15px;
+                        background-color: #7DC71D;
+                        margin-right: 5px;
+                    }
+
+                    .selectSeat1 {
+                        width: 15px;
+                        height: 15px;
+                        background-color: #E11C01;
+                        margin-right: 5px;
+                    }
+
+                    .selectSeat2 {
+                        width: 15px;
+                        height: 15px;
+                        background-color: #DBDEE1;
+                        margin-right: 5px;
+                    }
+
+                    .seat {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+
+            .Booking {
+                width: 30%;
+                background-color: #F1F1F1;
+                margin-left: 20px;
+                padding: 15px;
+                height: 40%;
+
+                .lsBooking {
+
+                    .img {
+                        text-align: center;
+
+                        img {
+                            width: 80%;
+                            height: auto;
+                            box-sizing: border-box;
+                            padding-bottom: 10px;
+                        }
+                    }
+
+                    .contentMovie {
+                        p {
+                            padding: 10px 0px;
+                            border-bottom: 1px solid gray;
+
+                            span {
+                                font-weight: bolder;
+                            }
+                        }
+
+                        h1 {
+                            font-size: 20px;
+
+                            span {
+                                color: var(--pimary)
+                            }
+                        }
+
+                        .subName {
+                            border: unset;
+                        }
+
+                        h1 {
+                            padding: 10px 0px;
+                        }
+
+                        .btnNext {
+                            text-align: center;
+
+                            button {
+                                background-color: var(--pimary);
+                                padding: 10px 30px;
+                                font-size: 16px;
+                                border: unset;
+                                color: var(--white);
+                                font-weight: bold;
+                                margin-top: 20px;
+                                margin-right: 10px;
+                                cursor: pointer;
+                            }
+
+                            button:hover {
+                                background-color: var(--btnHover)
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}

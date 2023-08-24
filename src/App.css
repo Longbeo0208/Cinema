@@ -1,0 +1,28 @@
+:root {
+    --pimary: #E26435;
+    --gray: #a0a3a7;
+    --black: #000;
+    --white: #fff;
+    --brown: #47251C;
+    --hover: rgb(210, 207, 207);
+    --btnHover: rgb(160, 49, 36);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bor-left {
+    border-left: 1px solid var(--white);
+}

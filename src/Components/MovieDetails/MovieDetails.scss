@@ -1,0 +1,262 @@
+.MovieDetails {
+    .moviedetails {
+        display: flex;
+        justify-content: center;
+
+        .container {
+            display: flex;
+            margin: 20px 0;
+
+            .moviedetails-info {
+                width: 65%;
+
+                .moviedetails-info2 {
+                    display: flex;
+                }
+
+
+                .moviedetails-img {
+                    width: 25%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .moviedetails-name {
+                    width: 75%;
+                    padding-left: 30px;
+
+
+                    .moviedetails-heading {
+                        font-size: 26px;
+                        color: #43464b;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+
+                    .moviedetails-heading2 {
+                        font-size: 26px;
+                        color: #a0a3a7;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        padding-top: 18px;
+                        font-size: 15px;
+                        line-height: 1.4;
+
+                        span {
+                            color: #a0a3a7;
+                        }
+                    }
+
+                }
+
+                .moviedetails-content {
+                    padding-top: 24px;
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding-bottom: 16px;
+                        text-transform: uppercase;
+
+                        &::after {
+                            display: block;
+                            width: 50px;
+                            height: 2px;
+                            margin-top: 8px;
+                            content: "";
+                            background-color: var(--pimary);
+                        }
+
+
+                    }
+
+                    p {
+                        text-align: justify;
+                        padding-bottom: 15px;
+                        line-height: 1.5;
+                        font-size: 14px;
+
+                        span {
+                            color: #43464b;
+                            font-weight: bolder;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: var(--black);
+
+                        &:hover {
+                            color: var(--pimary);
+                        }
+                    }
+                }
+
+                .showtime {
+                    h2 {
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding-bottom: 16px;
+                        margin-top: 18px;
+
+                        &::after {
+                            display: block;
+                            width: 50px;
+                            height: 2px;
+                            margin-top: 8px;
+                            content: "";
+                            background-color: var(--pimary);
+                        }
+                    }
+
+                    .showtime-select {
+                        margin: 0 -15px;
+                        padding: 30px 0;
+
+                        select {
+                            padding: 10px;
+                            margin: 0 15px;
+                        }
+                    }
+
+                    .movie-booking {
+
+                        // width: 30%;
+                        h4 {
+                            display: flex;
+                            align-items: center;
+                            height: 40px;
+                            width: 300px;
+                            padding: 7px 20px;
+                            background-color: #f26b38;
+                            color: var(--white);
+                            font-size: 18px;
+                            position: relative;
+                            font-weight: 500;
+                            line-height: 1.5;
+
+                            &::after {
+                                content: "";
+                                width: 0;
+                                height: 83%;
+                                position: absolute;
+                                border: 4px solid #47251c;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+
+                        .movie-booking-border {
+                            display: flex;
+                            border: 1px solid var(--black);
+                            padding: 35px 20px;
+
+                            .movie-booking-room {
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .moviedetails-discount {
+                width: 35%;
+                padding-left: 30px;
+
+                h2 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    padding-bottom: 16px;
+
+                    &::after {
+                        display: block;
+                        width: 50px;
+                        height: 2px;
+                        margin-top: 8px;
+                        content: "";
+                        background-color: var(--pimary);
+                    }
+                }
+
+                .moviedetails-discount-border {
+                    width: 100%;
+                    border: 1px solid var(--black);
+
+                    .moviedetails-discount-content {
+                        padding: 24px 16px;
+
+                        input {
+                            width: 100%;
+                            padding: 10px;
+                            margin-bottom: 14px;
+
+                        }
+
+                        button {
+                            width: 100%;
+                            padding: 15px;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: var(--white);
+                            background-color: var(--pimary);
+                            border-color: transparent;
+                        }
+                    }
+                }
+
+                .moviedetails-showing {
+                    padding-top: 32px;
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding-bottom: 16px;
+                        margin-top: 18px;
+
+                        &::after {
+                            display: block;
+                            width: 50px;
+                            height: 2px;
+                            margin-top: 8px;
+                            content: "";
+                            background-color: var(--pimary);
+                        }
+                    }
+
+                    .moviedetails-showing-item {
+                        img {
+                            width: 100%;
+
+                            &:hover {
+                                cursor: pointer;
+                                opacity: 0.8;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+
+                        .moviedetails-showing1 {
+                            color: #43464b;
+                        }
+
+                        .moviedetails-showing2 {
+                            color: #a0a3a7;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

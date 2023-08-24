@@ -1,0 +1,116 @@
+.Footer {
+    background-color: #1A1A1A;
+
+    .footer {
+        display: flex;
+        justify-content: center;
+
+
+        .container {
+            .footer-content {
+                padding: 40px 0;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    color: var(--gray);
+                }
+
+                h2 {
+                    color: var(--gray);
+                    font-weight: 500;
+                    font-size: 18px;
+                    margin-bottom: 25px;
+                    position: relative;
+                    padding-left: 16px;
+
+                    &::before {
+                        background-color: #f26b38;
+                        content: "";
+                        height: 22px;
+                        left: 0;
+                        position: absolute;
+                        top: -2px;
+                        width: 4px;
+                    }
+                }
+
+                i {
+                    color: var(--gray);
+                    font-size: 26px;
+                    padding-right: 14px;
+                    margin-bottom: 25px;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: var(--pimary);
+                    }
+                }
+
+                ul {
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 16px;
+
+
+
+                        i {
+                            font-size: 9px;
+                            margin: 0;
+                            padding-right: 4px;
+
+                        }
+
+                        li {
+
+                            font-size: 13px;
+                            color: var(--gray);
+                            list-style: none;
+
+                            a {
+                                text-decoration: none;
+
+                                &:hover {
+                                    color: var(--pimary);
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .sub-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid var(--gray);
+
+        .container {
+            .sub-footer-content {
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 41px;
+                    width: 92px;
+                }
+
+                p {
+                    color: var(--gray);
+                    padding: 20px 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+
+}
